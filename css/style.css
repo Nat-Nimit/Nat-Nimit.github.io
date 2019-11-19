@@ -32,7 +32,7 @@ body {
 
 .showcase:before {
   content: '';
-  background: url('../image/P_20180217_140122_p.jpg') no-repeat center center/cover;
+  background: url('https://raw.githubusercontent.com/Nat-Nimit/nat-nimit.github.io/master/image/P_20180217_140122_p.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
