@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Mitr|Open+Sans|Roboto+Condensed|Sarabun&display=swap" rel="stylesheet"> > 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/menu.css">
   <title>Nimit Zhangyang Kumwapee (Nat) </title>
@@ -31,8 +31,31 @@
   <header class="showcase">
     <div class="container showcase-inner">
       <h1>WELCOME</h1>
-      <p>I am a linguaphile who loves exploring the world of language and literature.</p>
-      <a href="#" class="btn">Read More</a>
+      <p>I am a linguaphile who loves exploring the world of language and literature<span id="dots">...</span><span id="more"><br>
+        This webpage is created as a hub where my ideas are shared through past works and recent writings.<br> 
+        There are three sections that you might be interested in: Academic, Prose, and Poetry.<br><br> 
+        In Academic, all papers and works related to my fields of study are put together and represented in a more approachable style.<br><br> 
+        In Prose, memoirs, informal writings, and opinions are distributed in the form of blog.<br><br> 
+        In Poetry, it is here where I let my mind free in the form of rhythmic utterances crafted with meanings and contexts.</span>
+      </p>
+      <button type="button" class='btn' id="read" onclick="read()">Read More</button>
+      <script type="text/javascript">
+        var i=0;
+        function read(){
+          if(!i){
+            document.getElementById('more').style.display='inline';
+            document.getElementById('dots').style.display='none';
+            document.getElementById('read').innerHTML="Read Less";
+            i=1;
+          }
+          else{            
+            document.getElementById('more').style.display='none';
+            document.getElementById('dots').style.display='inline';
+            document.getElementById('read').innerHTML='Read More';
+            i=0;
+          }
+        }
+      </script>
     </div>
   </header>
 </body>
