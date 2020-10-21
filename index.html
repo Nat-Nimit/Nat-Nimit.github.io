@@ -21,45 +21,106 @@
 
     <ul class="navbar-nav">
       <li><a href="#">Home</a></li>
-      <li><a href="#">About me</a></li>
+      <li><a href="#">About</a></li>
       <li><a href="#">Academic</a></li>
       <li><a href="#">Prose</a></li>
       <li><a href="#">Poetry</a></li>
+      <li><a href="#">Lesson</a></li>
     </ul>
   </nav>
 
   <div id="side-menu" class="side-nav">
     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
     <a href="#">Home</a>
-    <a href="#">About me</a>
+    <a href="#">About</a>
     <a href="#">Academic</a>
     <a href="#">Prose</a>
     <a href="#">Poetry</a>
+    <a href="#">Lesson</a>
   </div>
 
-  <div id="main">
-    <h1>Nimit's Website</h1>
-  </div>
-  <div class="wrapper">
-    <div class="box1">
-      <h2>Welcome!</h2>
+  <!--Header Showcase-->
+  <header id="showcase" class="grid">
+    <div class="bg-image"></div>
+    <div class="content-wrap">
+      <h1>Welcome to Nimit's Website</h1>
       <p>A linguaphile who loves exploring the world of language and literature<span id="dots">...</span><span id="more"><br>
-        This webpage is created as a platform where my ideas are shared through past works and recent writings.<br> 
-        There are three sections: Academic, Prose, and Poetry.<br><br> 
-        In Academic, all papers and works related to my fields of study are put together in one place.<br><br> 
-        In Prose, memoirs, informal writings, and opinions are presented in the form of blog.<br><br> 
-        In Poetry, it is here where I let my mind free and create rhythmic utterances crafted with meanings and contexts.</span>
+        This webpage is created as a platform where my ideas are shared through past works and recent writings</span>
       </p>
       <button type="button" class='btn' id="read" onclick="read()">Read More</button>
     </div>
-    <div class='box2'>
-      <h2>What's new?</h2>
-    </div>
-    <div class='box3'>
-      <h2>Tools</h2>
-    </div>
-  </div>
-  
+  </header>
+
+  <!--Main Area-->
+  <main id="main">
+    <!--Section A-->
+    <section id="section-a" class="grid">
+      <div class="content-wrap">
+        <h2 class="content-title">What's New</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita error ratione fugiat a culpa minus esse ipsum modi aspernatur incidunt quos voluptate aliquid in illo quas, dolore eos voluptatem eligendi.</p>
+      </div>
+    </section>
+
+    <!--Section B-->
+    <section id="section-b" class="grid">
+      <ul>
+        <li>
+          <div class="card">
+            <img src="image/1.jpg" alt="">
+            <div class="card-content">
+              <h3 class="card-title">Poetry</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi quis dignissimos odit. Enim reprehenderit impedit accusantium libero earum ab corrupti non harum quidem explicabo id, maxime, quibusdam perspiciatis adipisci!</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <img src="image/2.jpg" alt="">
+            <div class="card-content">
+              <h3 class="card-title">Prose</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi quis dignissimos odit. Enim reprehenderit impedit accusantium libero earum ab corrupti non harum quidem explicabo id, maxime, quibusdam perspiciatis adipisci!</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <img src="image/3.jpg" alt="">
+            <div class="card-content">
+              <h3 class="card-title">Lesson</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi quis dignissimos odit. Enim reprehenderit impedit accusantium libero earum ab corrupti non harum quidem explicabo id, maxime, quibusdam perspiciatis adipisci!</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--Section C-->
+    <section id="section-c" class="grid">
+      <div class="content-wrap">
+        <h2 class="content-title">Academic Works</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatibus eaque veritatis quis est autem assumenda doloribus ducimus earum aliquid!</p>
+      </div>
+    </section>
+
+    <!--Section D-->
+    <section id="section-d" class="grid">
+      <div class="box">
+        <h2 class="content-title">Contact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nisi?</p>
+        <p>Nimit.kumwapee@gmail.com</p>
+      </div>
+      <div class="box">
+        <h2 class="content-title">About me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora possimus sequi dolorum eius voluptas odio, error et saepe magnam cupiditate?</p>
+      </div>
+    </section>
+  </main>
+
+  <!--Footer-->
+  <footer id="main-footer" class="grid">
+    <div>Nimit Kumwapee</div>
+    <div>Copyright@2020</div>
+  </footer>
   <script src='script.js'></script>
 </body>
 </html>
