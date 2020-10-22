@@ -106,6 +106,10 @@
   padding: 2em;
 }
 
+#section-c ul{
+  list-style: none;
+}
+
 /* Section D */
 #section-d .box{
   padding: 2em;
