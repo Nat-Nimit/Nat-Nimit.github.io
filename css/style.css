@@ -109,6 +109,9 @@
 #section-c ul{
   list-style: none;
 }
+#section-c li{
+  text-align: left;
+}
 
 /* Section D */
 #section-d .box{
